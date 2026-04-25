@@ -20,13 +20,7 @@ def select_option():
 
             elif opc == 3:
                 listar_productos()
-
-            elif opc == 4:
-                print("O4")
-
-            elif opc == 5:
-                print("O5")
-
+                
             elif opc == 6:
                 print("Saliendo...")
                 break
