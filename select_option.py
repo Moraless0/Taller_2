@@ -16,10 +16,10 @@ def select_option():
                 registrar_producto()
 
             elif opc == 2:
-                actualizar_cantidad()
+                listar_productos()
 
             elif opc == 3:
-                listar_productos()
+                actualizar_cantidad()
 
             elif opc == 4:
                 print("Saliendo...")
