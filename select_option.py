@@ -1,3 +1,4 @@
+from add_product import registrar_producto
 
 def select_option():
     
@@ -7,7 +8,7 @@ def select_option():
     while True:
         try:
             if opc == 1:
-                print("O1")
+                registrar_producto()
             elif opc == 2:
                 print("O2")
             elif opc == 3:
