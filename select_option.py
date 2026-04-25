@@ -20,8 +20,8 @@ def select_option():
 
             elif opc == 3:
                 listar_productos()
-                
-            elif opc == 6:
+
+            elif opc == 4:
                 print("Saliendo...")
                 break
 
