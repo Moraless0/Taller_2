@@ -1,7 +1,7 @@
 import json
 
 def registrar_producto():
-    nombre = input("Nombre del producto: ")
+    nombre = input("Nombre del producto: ").lower()
     precio = float(input("Precio: "))
     cantidad = int(input("Cantidad: "))
 
